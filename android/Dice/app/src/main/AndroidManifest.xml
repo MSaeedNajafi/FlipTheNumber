@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.flipthenumber.beta">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme_NoActionBar"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".PaymentStripe.ActivityPayment"></activity>
+        <activity
+            android:name=".ui.activities.ActivityPlayerVsPlayerViewNew"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.userview.ActivityForgetPassword"
+            android:screenOrientation="portrait"
+            android:theme="@style/DarkAppTheme" />
+        <activity
+            android:name=".ui.activities.Tournament.TournamentPlayVsPlay"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.PlayPage.PlayVsPlayerSocket"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.PlayPage.PlayWithPlayer"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.ActivityPlayerVsPlayerView"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.ActivityPayAmtSecond"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.userview.LoginSingupActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.ActivityPayAmt"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.FriendListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.userview.EditProfileActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DarkAppTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".ui.activities.PlayPage.PlayWithComputerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.ChallengeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.userview.SignUpActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DarkAppTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".ui.activities.userview.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DarkAppTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".ui.activities.SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/DarkAppTheme"
+            android:windowSoftInputMode="adjustPan" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" /> <!-- defining the firebase messaging service class here -->
+
+
+
+<!--        <service android:name=".services.MyFirebaseMessagingService"-->
+<!--            android:enabled="true"-->
+<!--            android:exported="true">-->
+<!--            <intent-filter>-->
+<!--                <action android:name="com.google.firebase.MESSAGING_EVENT" />-->
+<!--            </intent-filter>-->
+<!--        </service>-->
+
+
+
+        <service
+            android:name=".services.MyFirebaseMessaging">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+
+
+        <!--
+ meta data  tag for admob Note:replace below app id
+             value to your own app id
+        -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+        <meta-data
+            android:name="com.razorpay.ApiKey"
+            android:value="rzp_test_NWJwhBRujEiZYp" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCAmtqWLUPGrkmW9UhazF1JV0UIhTpljKg" />
+        <meta-data
+            android:name="com.google.android.gms.wallet.api.enabled"
+            android:value="true" />
+
+    </application>
+
+</manifest>

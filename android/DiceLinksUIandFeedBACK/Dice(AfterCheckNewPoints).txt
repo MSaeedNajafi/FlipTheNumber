@@ -1,0 +1,32 @@
+APP points>>
+
+1. Pop-up not anywhere
+2. Board Change (bigger/smaller)
+3. Full screen ad every 3 to 5 games random
+4. When someone has won or lost a game, allow them to watch an ad to double the tokens they’ve earned.
+This includes winning a tournament.
+5. Purchase add free app for 1.99
+6. 3 are free and 3 you can pay for
+7. Ask for a review after player has played 3 games or 1 tournament
+8. Notification when it is your turn
+9.Automatically by the system (Flip or the admin dashboard)
+Or by another player poking another player
+10.Languages  --  Multiple languages 
+11. Leagues based on points
+12.We will have league names and amount of points to upgrade to a new league set
+Expand advertising platform
+13. When I watch 1 ad, after the ad it goes back to the home screen.
+It should come back to the 6 ads screen.
+Also, the ‘1 ad’ should be a different color screen or greyed out after i’ve watched it so I can move on to ‘ 2 ads’ and so on and so forth.
+
+
+Admin Points>>
+
+Admin Dashboard:
+1)See each user by username
+2(See each of their:
+Jokers, Points, and Tokens.
+Be able to edit all of this information from the admin dashboard
+3) Manually add coins, tokens, jokers, to peoples username
+Restore store purchases
+

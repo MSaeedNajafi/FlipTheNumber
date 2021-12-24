@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d498b1e5-1d79-41dd-87d8-86b6eab857c9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/adapter/ChatMessagesAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/adapter/EventAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/adapter/RewardAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/adapter/StoreAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/model/GetHomePageDetailsModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/model/ModelChatMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/model/ModelCollectReward.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/model/ModelFilterUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/model/ModelGetMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/model/ModelPayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/retrofit/ApiInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/ui/activities/ActivityPayAmt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/ui/activities/ActivityPayAmtSecond.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/ui/activities/ActivityPlayerVsPlayerView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/ui/activities/PlayPage/PlayVsPlayerSocket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/ui/activities/PlayPage/PlayWithComputerActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/ui/activities/PlayPage/PlayWithPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/ui/activities/Tournament/TournamentPlayVsPlay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/ui/activities/userview/ActivityForgetPassword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/ui/activities/userview/LoginSingupActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/ui/activities/userview/SignUpActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/ui/fragments/AllUserFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/ui/fragments/ChallengeFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/ui/fragments/ProfileFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable-xhdpi/five_shape.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable-xhdpi/four_shape.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable-xhdpi/one_shape.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable-xhdpi/three_shape.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable-xhdpi/two_shape.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/ad_btn_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/arrow_send.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/bg_dialog_ads.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/bg_edit_profile_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/bg_login_signup_button.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/bg_name_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/bg_send_req.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/board_new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/board_without_progile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/bonus_btn_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/bucky_neww.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/button_rounded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/buy_bg_button.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/challeage_frnd_new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/chat_dialog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/chat_img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/close_chat_dialog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/drawable_profile.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/event_new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/fb_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/flip_the_no_new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/home_bg_page.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/home_new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/home_neww.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/iv_back_vector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/leage_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/leage_three.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/leage_two.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/login_new_page.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/login_signup_page.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/man.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/msg_view_draw.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/mute_neww.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/new_board.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/no_neww.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/player_vs_player_new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/playervsplayer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/png_board.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/profile_new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/quit_neww.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/reward_new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/round_circle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/shape_eight_five.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/shape_eight_four.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/shape_eight_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/shape_eight_three.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/shape_eight_two.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/shape_five_five.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/shape_five_four.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/shape_five_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/shape_five_three.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/shape_five_two.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/shape_four_five.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/shape_four_four.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/shape_four_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/shape_four_three.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/shape_four_two.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/shape_nine_five.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/shape_nine_four.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/shape_nine_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/shape_nine_three.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/shape_nine_two.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/shape_one_five.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/shape_one_four.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/shape_one_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/shape_one_three.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/shape_one_two.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/shape_seven_five.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/shape_seven_four.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/shape_seven_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/shape_seven_three.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/shape_seven_two.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/shape_six_five.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/shape_six_four.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/shape_six_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/shape_six_three.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/shape_six_two.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/shape_three_five.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/shape_three_four.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/shape_three_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/shape_three_three.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/shape_three_two.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/shape_two_five.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/shape_two_four.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/shape_two_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/shape_two_three.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/shape_two_two.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/signup_new_page.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/sound_neww.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/splash_new_img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/store_new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/store_view_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/tournament_new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/vs_computer_new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/vs_img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/winner_new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/yes_neww.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/zoker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/font/seven.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/font/three.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/layout/activity_forget_password.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/layout/activity_login_singup.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/layout/activity_pay_amt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/layout/activity_pay_amt_second.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/layout/activity_play_vs_player_socket.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/layout/activity_play_with_player.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/layout/activity_player_vs_player_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/layout/activity_tournament_play_vs_play.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/layout/dialog_ads_to_confirm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/layout/dialog_chat_dialog_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/layout/dialog_token_less.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/layout/pay_dialog.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dice/app/src/main/res/layout/view_chat_messages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/credentials.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/google-services.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/androidTest/java/com/flipthenumber/dice/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/androidTest/java/com/flipthenumber/beta/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/dice/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/dice/Constants/MessageInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/Constants/MessageInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/dice/Constants/UserConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/Constants/UserConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/dice/Helper/CustomToast.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/Helper/CustomToast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/dice/Helper/PreLollipopSoundPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/Helper/PreLollipopSoundPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/dice/Helper/SharedHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/Helper/SharedHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/dice/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/dice/adapter/AllUserAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/adapter/AllUserAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/dice/adapter/ChallengeAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/adapter/ChallengeAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/dice/adapter/EventAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/dice/adapter/FriendAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/adapter/FriendAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/dice/adapter/InviteFriendAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/adapter/InviteFriendAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/dice/adapter/MyRequestAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/adapter/MyRequestAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/dice/adapter/RewardAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/dice/adapter/StoreAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/dice/adapter/ViewPagerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/adapter/ViewPagerAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/dice/model/EventModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/model/EventModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/dice/model/FriendsModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/model/FriendsModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/dice/model/InviteModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/model/InviteModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/dice/model/MyRequestModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/model/MyRequestModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/dice/model/RewardModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/model/RewardModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/dice/model/SendRequestModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/model/SendRequestModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/dice/model/StoreModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/model/StoreModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/dice/model/UnFriendModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/model/UnFriendModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/dice/model/UploadImageModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/model/UploadImageModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/dice/model/UserListModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/model/UserListModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/dice/model/UserModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/model/UserModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/dice/network/NetworkReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/network/NetworkReceiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/dice/network/NetworkState.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/network/NetworkState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/dice/retrofit/ApiInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/dice/retrofit/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/retrofit/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/dice/services/MyFirebaseMessagingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/services/MyFirebaseMessagingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/dice/ui/activities/ChallengeActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/ui/activities/ChallengeActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/dice/ui/activities/FriendListActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/ui/activities/FriendListActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/dice/ui/activities/PlayPage/PlayWithComputerActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/dice/ui/activities/Privacy_Policy.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/ui/activities/Privacy_Policy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/dice/ui/activities/SplashActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/ui/activities/SplashActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/dice/ui/activities/userview/EditProfileActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/ui/activities/userview/EditProfileActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/dice/ui/activities/userview/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/ui/activities/userview/LoginActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/dice/ui/activities/userview/SignUpActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/dice/ui/activities/userview/presenter/LoginActivityPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/ui/activities/userview/presenter/LoginActivityPresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/dice/ui/activities/userview/presenter/SignUpActivityPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/ui/activities/userview/presenter/SignUpActivityPresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/dice/ui/fragments/AboutUsFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/ui/fragments/AboutUsFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/dice/ui/fragments/AllUserFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/dice/ui/fragments/EventFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/ui/fragments/EventFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/dice/ui/fragments/FriendsFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/ui/fragments/FriendsFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/dice/ui/fragments/HelpFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/ui/fragments/HelpFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/dice/ui/fragments/HomeFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/ui/fragments/HomeFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/dice/ui/fragments/InvitesFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/ui/fragments/InvitesFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/dice/ui/fragments/ProfileFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/dice/ui/fragments/RequestFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/ui/fragments/RequestFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/dice/ui/fragments/RewardFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/ui/fragments/RewardFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/dice/ui/fragments/StoreFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/java/com/flipthenumber/beta/ui/fragments/StoreFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/btn_bg_yellow.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/btn_bg_yellow.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/flip_the_no.png" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/flip_the_no.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/profile.png" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/profile.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/profile_edit_bg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/profile_edit_bg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/tournament.png" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/res/drawable/tournament.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/res/layout/activity_challenge.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/res/layout/activity_challenge.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/res/layout/activity_edit_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/res/layout/activity_edit_profile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/res/layout/activity_friend_list.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/res/layout/activity_friend_list.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/res/layout/activity_play_with_computer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/res/layout/activity_play_with_computer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/res/layout/activity_privacy__policy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/res/layout/activity_privacy__policy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/res/layout/activity_sign_up.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/res/layout/activity_sign_up.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/res/layout/activity_splash.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/res/layout/activity_splash.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/res/layout/event_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/res/layout/event_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/res/layout/exit_app.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/res/layout/exit_app.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/res/layout/exit_game_dialog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/res/layout/exit_game_dialog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/res/layout/fragment_about_us.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/res/layout/fragment_about_us.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/res/layout/fragment_all_user.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/res/layout/fragment_all_user.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/res/layout/fragment_event.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/res/layout/fragment_event.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/res/layout/fragment_friends.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/res/layout/fragment_friends.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/res/layout/fragment_help.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/res/layout/fragment_help.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/res/layout/fragment_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/res/layout/fragment_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/res/layout/fragment_invites.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/res/layout/fragment_invites.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/res/layout/fragment_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/res/layout/fragment_profile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/res/layout/fragment_request.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/res/layout/fragment_request.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/res/layout/fragment_reward.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/res/layout/fragment_reward.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/res/layout/fragment_store.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/res/layout/fragment_store.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/res/layout/friend_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/res/layout/friend_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/res/layout/invite_friend_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/res/layout/invite_friend_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/res/layout/my_request_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/res/layout/my_request_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/res/layout/reward_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/res/layout/reward_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/res/layout/store_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/res/layout/store_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/res/layout/user_list_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/res/layout/user_list_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/res/layout/win_lose_dialog_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/res/layout/win_lose_dialog_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/app/src/test/java/com/flipthenumber/dice/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/app/src/test/java/com/flipthenumber/beta/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Dice/build.gradle" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Dice" />
+  </component>
+  <component name="ProjectId" id="21rY31dCL0Lrf18mhpuDtLu46OD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Dice/app" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d498b1e5-1d79-41dd-87d8-86b6eab857c9" name="Default Changelist" comment="" />
+      <created>1638700471455</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1638700471455</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="824" y="348" key="FileChooserDialogImpl" timestamp="1638701658143">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="824" y="348" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1638701658143" />
+    <state x="694" y="263" key="run.anything.popup" timestamp="1638700500804">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="694" y="263" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1638700500804" />
+  </component>
+</project>

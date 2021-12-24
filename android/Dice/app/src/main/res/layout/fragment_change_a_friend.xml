@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="15dp"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/layout_top"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="USERS"
+                android:id="@+id/tv_users"
+                android:layout_centerHorizontal="true"
+                android:textSize="16sp"
+                android:fontFamily="@font/seven"
+                android:textColor="@color/colorRedDark"
+                android:layout_height="wrap_content">
+            </TextView>
+            <View
+                android:layout_width="70dp"
+                android:layout_marginTop="3dp"
+                android:id="@+id/view_users"
+                android:layout_below="@+id/tv_users"
+                android:background="@color/colorRedDark"
+                android:layout_height="0.8dp">
+            </View>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="INVITES"
+                android:id="@+id/tv_invites"
+                android:textSize="16sp"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/seven"
+                android:textColor="@color/colorRedDark"
+                android:layout_height="wrap_content">
+            </TextView>
+            <View
+                android:layout_width="78dp"
+                android:layout_marginTop="3dp"
+                android:id="@+id/view_invites"
+                android:layout_below="@+id/tv_invites"
+                android:visibility="gone"
+                android:background="@color/colorRedDark"
+                android:layout_height="0.8dp">
+            </View>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="FRIENDS"
+                android:id="@+id/tv_friends"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/seven"
+                android:textSize="16sp"
+                android:textColor="@color/colorRedDark"
+                android:layout_height="wrap_content">
+            </TextView>
+            <View
+                android:layout_width="78dp"
+                android:id="@+id/view_friends"
+                android:layout_marginTop="3dp"
+                android:visibility="gone"
+                android:layout_below="@+id/tv_friends"
+                android:background="@color/colorRedDark"
+                android:layout_height="0.8dp">
+            </View>
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+
+    <FrameLayout
+        android:id="@+id/container_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/layout_bottem"
+        android:layout_below="@+id/layout_top"
+        android:layout_marginVertical="20dp" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/layout_bottem"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:id="@+id/layout_one"
+                android:background="@drawable/bg_white_view"
+                android:layout_height="wrap_content">
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:id="@+id/layout_two"
+                android:layout_marginLeft="2dp"
+                android:background="@drawable/bg_white_view"
+                android:layout_height="wrap_content">
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:id="@+id/layout_three"
+                android:layout_marginLeft="2dp"
+                android:background="@drawable/bg_white_view"
+                android:layout_height="wrap_content">
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

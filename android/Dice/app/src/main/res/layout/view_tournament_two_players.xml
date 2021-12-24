@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="15dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:id="@+id/layout_token"
+            android:background="@drawable/bg_tournament_play_vs_play"
+            android:layout_height="70dp">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:id="@+id/layout_you"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_weight="35"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:src="@drawable/leage_two"
+                        android:layout_height="30dp">
+
+                    </ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="Name"
+                        android:textColor="@color/colorWhite"
+                        android:id="@+id/name_one"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_weight="30"
+                    android:layout_height="match_parent">
+
+                  <RelativeLayout
+                      android:layout_width="wrap_content"
+                      android:layout_gravity="center"
+                      android:gravity="center_horizontal"
+                      android:layout_height="wrap_content">
+
+
+                      <de.hdodenhof.circleimageview.CircleImageView
+                          android:layout_width="45dp"
+                          android:id="@+id/iv_one"
+                          android:layout_centerVertical="true"
+                          android:src="@drawable/profile"
+                          android:layout_height="45dp">
+
+                      </de.hdodenhof.circleimageview.CircleImageView>
+
+                      <ImageView
+                          android:layout_width="30dp"
+                          android:id="@+id/iv_center"
+                          android:layout_centerVertical="true"
+                          android:src="@drawable/vs"
+                          android:layout_marginLeft="2dp"
+                          android:layout_marginRight="2dp"
+                          android:layout_toRightOf="@+id/iv_one"
+                          android:layout_height="30dp">
+
+                      </ImageView>
+
+                      <de.hdodenhof.circleimageview.CircleImageView
+                          android:layout_width="45dp"
+                          android:id="@+id/iv_two"
+                          android:layout_centerVertical="true"
+                          android:src="@drawable/profile"
+                          android:layout_toRightOf="@+id/iv_center"
+                          android:layout_height="45dp">
+
+                      </de.hdodenhof.circleimageview.CircleImageView>
+
+
+                  </RelativeLayout>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_weight="35"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/leage_two"
+                        android:layout_height="30dp">
+
+                    </ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="Name"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="@color/colorWhite"
+                        android:id="@+id/name_two"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+
+        </RelativeLayout>
+
+
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

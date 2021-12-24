@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_bg_page"
+    tools:context="com.flipthenumber.beta.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="100"
+            android:id="@+id/layout_top"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="24"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/user_detail_ll"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    tools:ignore="MissingConstraints">
+
+<!--                    <com.github.siyamed.shapeimageview.RoundedImageView-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:scaleType="fitXY"-->
+<!--                        app:siBorderColor="@color/colorGrey"-->
+<!--                        app:siBorderWidth="6dp"-->
+<!--                        app:siRadius="6dp"-->
+<!--                        android:src="@drawable/profile"-->
+<!--                        app:siSquare="true" />-->
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/iv_profile_img"
+                        android:layout_width="match_parent"
+                        android:layout_height="75dp"
+                        android:src="@drawable/profile" />
+
+
+
+
+                    <TextView
+                        android:id="@+id/userNametxt"
+                        android:layout_width="match_parent"
+                        android:visibility="gone"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:background="@color/colorPrimary"
+                        android:elevation="10dp"
+                        android:fontFamily="@font/roboto_medium"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="25"
+                android:id="@+id/layout_joker"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                                <ImageView
+                                    android:id="@+id/zokar_img"
+                                    android:layout_width="40dp"
+                                    android:layout_marginRight="5dp"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/leage_one" />
+
+                <TextView
+                    android:id="@+id/zokar_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/three"
+                    android:text="0"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="25"
+                android:gravity="center"
+                android:id="@+id/layout_coins_one"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_height="wrap_content">
+
+
+
+                <ImageView
+                    android:id="@+id/plusImg"
+                    android:layout_width="40dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_height="37dp"
+                    android:src="@drawable/leage_two"/>
+
+                                <TextView
+                                    android:id="@+id/ttxt"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:fontFamily="@font/three"
+                                    android:text="0"
+                                    android:textSize="14sp"
+                                    android:textColor="@color/colorWhite" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="26"
+                android:id="@+id/layout_coin_two"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                                <ImageView
+                                    android:id="@+id/dollar_img"
+                                    android:layout_width="40dp"
+                                    android:layout_marginRight="5dp"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/leage_three" />
+
+                                <TextView
+                                    android:id="@+id/total_coin_txt"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:fontFamily="@font/three"
+                                    android:text="0"
+                                    android:textSize="14sp"
+                                    android:textColor="@color/colorWhite"/>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/btm_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="5"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            tools:ignore="MissingConstraints">
+
+
+            <LinearLayout
+                android:id="@+id/home_ll"
+                android:layout_weight="1"
+                android:layout_gravity="bottom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:src="@drawable/home_new" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/seven"
+                    android:text="Home"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorWhite" />
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/gif_img"
+                    android:layout_width="50dp"
+                    android:visibility="gone"
+                    android:layout_height="50dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/gif"
+
+                    />
+            </LinearLayout>
+
+
+
+
+
+
+
+            <LinearLayout
+                android:id="@+id/profile_ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="bottom"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:src="@drawable/profile_neww"
+                    android:padding="7dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="Profile"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorWhite" />
+            </LinearLayout>
+
+
+
+
+
+                <LinearLayout
+                    android:id="@+id/rewards_ll"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_gravity="bottom"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="100dp"
+                        android:src="@drawable/reward_new" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_medium"
+                        android:text="Rewards"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite" />
+
+                    <pl.droidsonroids.gif.GifImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:visibility="gone"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/gif"
+
+
+                        />
+
+                </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:id="@+id/events_ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="bottom"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:src="@drawable/event_new" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="Events"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorWhite" />
+
+            </LinearLayout>
+
+
+
+
+
+
+                <LinearLayout
+                    android:id="@+id/store_ll"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_gravity="bottom"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="60dp"
+                        android:src="@drawable/store_new" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_medium"
+                        android:text="Store"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite" />
+
+                    <pl.droidsonroids.gif.GifImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/gif"
+                        android:visibility="gone"
+
+                        />
+                </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/btm_ll"
+            android:layout_below="@+id/layout_top"
+            android:layout_marginBottom="35dp" />
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

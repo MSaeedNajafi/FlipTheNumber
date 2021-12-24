@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:src="@drawable/table_board_is"/>
+
+
+    <ImageView
+        android:layout_width="240dp"
+        android:src="@drawable/newtestimg"
+        android:layout_height="240dp">
+    </ImageView>
+
+    <ImageView
+        android:layout_width="240dp"
+        android:src="@drawable/new_shape_two"
+        android:layout_height="240dp">
+    </ImageView>
+
+    <ImageView
+        android:layout_width="240dp"
+        android:src="@drawable/new_shape_three"
+        android:layout_height="240dp">
+    </ImageView>
+
+    <ImageView
+        android:layout_width="240dp"
+        android:src="@drawable/new_shape_four"
+        android:layout_height="240dp">
+    </ImageView>
+
+    <ImageView
+        android:layout_width="240dp"
+        android:src="@drawable/new_shape_five"
+        android:layout_height="240dp">
+    </ImageView>
+
+    <ImageView
+        android:layout_width="240dp"
+        android:src="@drawable/new_shape_six"
+        android:layout_height="240dp">
+    </ImageView>
+
+    <ImageView
+        android:layout_width="240dp"
+        android:src="@drawable/new_shape_seven"
+        android:layout_height="240dp">
+    </ImageView>
+
+    <ImageView
+        android:layout_width="240dp"
+        android:src="@drawable/new_shape_eight"
+        android:layout_height="240dp">
+    </ImageView>
+
+    <ImageView
+        android:layout_width="240dp"
+        android:src="@drawable/new_shape_eight"
+        android:layout_height="240dp">
+    </ImageView>
+
+    <ImageView
+        android:layout_width="240dp"
+        android:src="@drawable/new_shape_nine"
+        android:layout_height="240dp">
+    </ImageView>
+
+
+</RelativeLayout>

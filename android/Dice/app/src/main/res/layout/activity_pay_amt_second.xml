@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.flipthenumber.beta.ui.activities.ActivityPayAmtSecond">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:background="@color/colorPrimary"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:id="@+id/layout"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content">
+
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:src="@drawable/iv_back_vector"
+                android:id="@+id/iv_back"
+                android:padding="5dp"
+                android:layout_height="wrap_content">
+
+            </ImageView>
+
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Payment"
+            android:fontFamily="@font/seven"
+            android:id="@+id/tv_title"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/layout"
+            android:textColor="@color/colorWhite"
+            android:textSize="18sp"
+            android:layout_height="wrap_content">
+        </TextView>
+
+
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="15dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_add_type"
+            android:layout_width="match_parent"
+            android:textSize="18sp"
+            android:fontFamily="@font/seven"
+            android:textColor="@color/colorBlack"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/tv_amt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:fontFamily="@font/seven"
+            android:textSize="16sp"
+            android:text=""/>
+
+
+        <com.stripe.android.view.CardInputWidget
+            android:id="@+id/card_input_widget"
+            android:layout_marginTop="15dp"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <Button
+            android:id="@+id/pay"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:textSize="18sp"
+            android:visibility="gone"
+            android:fontFamily="@font/seven"
+            android:textColor="@color/colorWhite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pay"/>
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="OR"
+            android:visibility="gone"
+            android:textColor="@color/colorBlack"
+            android:textSize="22sp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+
+    <RelativeLayout
+        android:clickable="true"
+        android:visibility="visible"
+        android:focusable="true"
+        android:id="@+id/layout_google_pay"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:background="@color/colorBlack"
+        android:padding="2sp">
+
+
+        <LinearLayout
+            android:duplicateParentState="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="2"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:scaleType="fitCenter"
+                android:duplicateParentState="true"
+                android:src="@drawable/buy_with_googlepay_button_content"/>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:duplicateParentState="true"
+            android:src="@drawable/googlepay_button_overlay"/>
+
+    </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="OR"
+            android:visibility="gone"
+            android:textColor="@color/colorBlack"
+            android:textSize="22sp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+
+        <Button
+            android:id="@+id/payWithIdeal"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:textSize="18sp"
+            android:visibility="gone"
+            android:fontFamily="@font/seven"
+            android:textColor="@color/colorWhite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pay With iDEAL"/>
+        
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

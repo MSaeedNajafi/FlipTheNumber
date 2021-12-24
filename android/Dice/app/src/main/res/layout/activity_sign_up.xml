@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_new_page"
+    tools:context="com.flipthenumber.beta.ui.activities.userview.SignUpActivity">
+    <ImageView
+        android:id="@+id/img_back"
+        android:layout_width="wrap_content"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        android:src="@drawable/back_arrow_white"
+        android:padding="10dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:id="@+id/scroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background"
+            android:layout_alignParentBottom="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                    android:hint="NAME">
+
+                    <EditText
+                        android:id="@+id/name_etxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:fontFamily="@font/three"
+                        android:maxLength="25"
+                        android:inputType="text"
+                        />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                    android:hint="BIRTHDATE"
+                    >
+                    <EditText
+                        android:id="@+id/dob_etxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:editable="true"
+                        android:focusable="false"
+                        android:fontFamily="@font/three"
+                        android:inputType="textEmailAddress"
+                        android:maxLength="25"
+                        android:paddingLeft="5dp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                    android:hint="GENDER"
+                    >
+                    <EditText
+                        android:id="@+id/gender_etxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:inputType="text"
+                        android:maxLength="25"
+                        android:fontFamily="@font/three" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                    android:hint="Date of Birth"
+                    >
+
+                </com.google.android.material.textfield.TextInputLayout>
+                <RadioGroup
+                    android:id="@+id/radioGrp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="gone"
+                    >
+                    <RadioButton
+                        android:id="@+id/radioM"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:checked="true"
+                        android:layout_weight="1"
+                        android:textSize="14dp"
+                        android:text="Male"
+                        />
+                    <RadioButton
+                        android:id="@+id/radioF"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:checked="false"
+                        android:layout_weight="1"
+                        android:textSize="14dp"
+                        android:text="Female"
+                        />
+                </RadioGroup>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Mobile"
+                        android:layout_marginRight="3dp"
+                        android:paddingLeft="100dp"
+                        app:hintTextColor="@color/colorBlack">
+
+                        <EditText
+                            android:id="@+id/mobile_etxt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/museo"
+                            android:maxLength="10"
+                            android:inputType="number"
+                            android:textColor="@color/colorBlack" />
+                    </com.google.android.material.textfield.TextInputLayout>
+                    <com.hbb20.CountryCodePicker
+                        android:id="@+id/countryCodeHolder"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        app:ccp_textSize="14sp"
+                        android:layout_centerVertical="true" />
+                </RelativeLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                    android:hint="EMAIL"
+                    >
+                    <EditText
+                        android:id="@+id/email_etxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:fontFamily="@font/three"
+                        android:inputType="textEmailAddress"
+                        android:maxLength="50"
+                        />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:passwordToggleEnabled="true"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                    android:hint="PASSWORD">
+                    <EditText
+                        android:id="@+id/pass_etxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:maxLength="25"
+                        android:inputType="textPassword"
+                        android:fontFamily="@font/three"
+                        />
+                </com.google.android.material.textfield.TextInputLayout>
+
+<!--                <Button-->
+<!--                    android:id="@+id/signup_btn"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="50dp"-->
+<!--                    android:background="@drawable/btn_bg"-->
+<!--                    android:text="Sign Up"-->
+<!--                    android:textColor="@color/colorWhite"-->
+<!--                    android:fontFamily="@font/museo"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    />-->
+
+
+                <Button
+                    android:id="@+id/signup_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/bg_login_signup_button"
+                    android:text="Sign Up"
+                    android:fontFamily="@font/seven"
+                    android:textColor="@color/colorWhite"/>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:visibility="gone"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/already_account_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Have an account"
+                        android:padding="10dp"
+                        android:textColor="@color/colorBlack"
+                        />
+                    <TextView
+                        android:id="@+id/skip_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Skip"
+                        android:padding="10dp"
+                        android:layout_alignParentRight="true"
+                        android:textAlignment="viewEnd"
+                        android:textColor="@color/colorBlack"
+                        />
+
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+        </ScrollView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:layout_above="@id/scroll"
+            android:layout_marginBottom="10dp">
+            <ImageView
+                android:id="@+id/logo_img"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/splash_logo" />
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:src="@drawable/timiz"
+                android:layout_gravity="right"
+                android:layout_marginRight="10dp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+

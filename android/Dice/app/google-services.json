@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "887310019516",
+    "project_id": "flip-319907",
+    "storage_bucket": "flip-319907.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:887310019516:android:f8493d97fb76d5728a59b9",
+        "android_client_info": {
+          "package_name": "com.flipthenumber.beta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "887310019516-546eij09oqmef07q5fglgq6ccqsev4up.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.flipthenumber.beta",
+            "certificate_hash": "05178939943773d24f57e6eb291a9bfe38c48dcb"
+          }
+        },
+        {
+          "client_id": "887310019516-v9f0o797bu1cvgrtq4cs5q3jfm9igr2f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.flipthenumber.beta",
+            "certificate_hash": "2d311550ff1b79f6808ce0821ab37c24bd6477e5"
+          }
+        },
+        {
+          "client_id": "887310019516-nensmhdqko28ctun1t607kjghb0alv5v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAmtqWLUPGrkmW9UhazF1JV0UIhTpljKg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "887310019516-nensmhdqko28ctun1t607kjghb0alv5v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

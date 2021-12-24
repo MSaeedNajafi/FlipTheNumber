@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#ef0000</color>
+
+    <color name="colorPrimaryDark">#E3202B</color>
+
+    <color name="colorAccent">#C6C4BB</color>
+
+    <color name="colorred_light">#d81e29</color>
+
+    <color name="coloryellow">#FCDC3B</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+
+    <color name="colorBlack">#000000</color>
+
+    <color name="colorGrey">#A1A1A1</color>
+
+    <color name="colorGreen">#50DA16</color>
+
+    <color name="colorPurple">#CC8899</color>
+
+    <color name="colorsolidGreen">#44802B</color>
+
+<!--    //51AF2F-->
+    <color name="colorsGreen">#00b972</color>
+
+    <color name="colorsGreenNew">#51AF2F</color>
+
+    <color name="colorsDarkpurple">#9F4BDC</color>
+
+    <color name="colorsDarkSky">#0986C8</color>
+
+    <color name="colorRedLight">#d61c29</color>
+
+    <color name="colorRedDark">#b01b1f</color>
+
+    <color name="colorRedLightNew">#ff7350</color>
+
+    <color name="new_color_black">#696969</color>
+
+    <color name="colorDatePickerDialog">#EBEFF4</color>
+
+<!--    //d61c29-->
+
+
+</resources>

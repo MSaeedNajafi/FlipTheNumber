@@ -1,0 +1,13 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:width="414dp"
+    android:height="667dp"
+    android:viewportWidth="414"
+    android:viewportHeight="667"
+    tools:ignore="VectorRaster">
+    <path
+        android:fillColor="#e3202b"
+        android:name="Rounded Rectangle 6"
+        android:pathData="m28 111h359c8.3 0 15 6.7 15 15v430c0 8.3 -6.7 15
+         -15 15h-359c-8.3 0 -15 -6.7 -15 -15v-430c0 -8.3 6.7 -15 15 -15z" />
+</vector>

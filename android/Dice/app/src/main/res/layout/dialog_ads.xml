@@ -1,0 +1,832 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/ads_bg_new"
+    android:layout_height="640dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/iv_close"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/close_chat_dialog"
+        android:layout_height="wrap_content">
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="100"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="80"
+            android:layout_height="match_parent">
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="20"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="80dp"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:scrollbars="none"
+                    android:layout_height="match_parent">
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Watch ADS TO"
+                    android:textSize="16sp"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorWhite"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:text="EARN MORE COINS!"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:layout_marginTop="3dp"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorWhite"
+                            android:layout_height="wrap_content">
+                        </TextView>
+
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_marginTop="7dp"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:weightSum="100"
+                                android:layout_height="wrap_content">
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_weight="88"
+                                    android:layout_gravity="center"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/tv_count_ads"
+                                        android:layout_marginLeft="3dp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_centerVertical="true"
+                                        android:text="1"
+                                        android:textColor="@color/colorWhite"
+                                        android:textSize="10sp"
+                                        android:textStyle="bold"></TextView>
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:text="AD"
+                                        android:layout_centerVertical="true"
+                                        android:id="@+id/tv_ads"
+                                        android:layout_toRightOf="@+id/tv_count_ads"
+                                        android:textColor="@color/colorWhite"
+                                        android:textSize="10sp"
+                                        android:layout_marginLeft="3dp"
+                                        android:layout_height="wrap_content">
+                                    </TextView>
+                                </RelativeLayout>
+
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_weight="12"
+                                    android:layout_height="wrap_content">
+
+                                    <RelativeLayout
+                                        android:layout_width="match_parent"
+                                        android:padding="10dp"
+                                        android:layout_centerVertical="true"
+                                        android:id="@+id/layout_ads_one"
+                                        android:layout_marginLeft="15dp"
+                                        android:layout_marginRight="15dp"
+                                        android:background="@drawable/buy_bg_button"
+                                        android:layout_height="wrap_content">
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text="COLLECT"
+                                            android:layout_centerVertical="true"
+                                            android:textStyle="bold"
+                                            android:textSize="12sp"
+                                            android:textColor="@color/colorWhite"
+                                            android:fontFamily="@font/seven"
+                                            />
+
+                                        <RelativeLayout
+                                            android:layout_width="wrap_content"
+                                            android:layout_alignParentRight="true"
+                                            android:layout_height="wrap_content">
+
+
+                                            <RelativeLayout
+                                                android:layout_width="wrap_content"
+                                                android:layout_alignParentRight="true"
+                                                android:layout_height="wrap_content">
+                                                <TextView
+                                                    android:layout_width="wrap_content"
+                                                    android:text="+10"
+                                                    android:layout_centerVertical="true"
+                                                    android:id="@+id/tv_coins_for_ads"
+                                                    android:textStyle="bold"
+                                                    android:textSize="14sp"
+                                                    android:layout_alignParentRight="true"
+                                                    android:textColor="@color/colorWhite"
+                                                    android:layout_height="wrap_content">
+                                                </TextView>
+
+                                                <ImageView
+                                                    android:layout_width="30dp"
+                                                    android:layout_centerVertical="true"
+                                                    android:layout_toLeftOf="@+id/tv_coins_for_ads"
+                                                    android:src="@drawable/leage_three"
+                                                    android:layout_marginRight="3dp"
+                                                    android:layout_height="30dp">
+                                                </ImageView>
+                                            </RelativeLayout>
+
+
+
+
+
+
+
+
+
+                                        </RelativeLayout>
+
+
+                                    </RelativeLayout>
+
+                                </RelativeLayout>
+
+
+                            </LinearLayout>
+
+
+
+
+
+
+
+                        </RelativeLayout>
+
+
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_marginTop="7dp"
+                            android:layout_height="wrap_content">
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:weightSum="100"
+                                android:layout_height="wrap_content">
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_weight="88"
+                                    android:layout_gravity="center"
+                                    android:layout_height="wrap_content">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:text="2"
+                                        android:layout_centerVertical="true"
+                                        android:id="@+id/tv_count_ads_two"
+                                        android:textColor="@color/colorWhite"
+                                        android:textSize="12sp"
+                                        android:textStyle="bold"
+                                        android:layout_height="wrap_content">
+                                    </TextView>
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:text="ADS"
+                                        android:layout_centerVertical="true"
+                                        android:id="@+id/tv_ads_two"
+                                        android:layout_toRightOf="@+id/tv_count_ads_two"
+                                        android:textColor="@color/colorWhite"
+                                        android:textSize="10sp"
+                                        android:layout_marginLeft="3dp"
+                                        android:layout_height="wrap_content">
+                                    </TextView>
+
+                                </RelativeLayout>
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_weight="12"
+                                    android:layout_height="wrap_content">
+
+
+                                    <RelativeLayout
+                                        android:layout_width="match_parent"
+                                        android:padding="10dp"
+                                        android:layout_centerVertical="true"
+                                        android:id="@+id/layout_ads_two"
+                                        android:layout_marginLeft="15dp"
+                                        android:layout_marginRight="15dp"
+                                        android:background="@drawable/buy_bg_button"
+                                        android:layout_height="wrap_content">
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text="COLLECT"
+                                            android:layout_centerVertical="true"
+                                            android:textStyle="bold"
+                                            android:textSize="12sp"
+                                            android:textColor="@color/colorWhite"
+                                            android:fontFamily="@font/seven"
+                                            />
+
+                                        <RelativeLayout
+                                            android:layout_width="wrap_content"
+                                            android:layout_alignParentRight="true"
+                                            android:layout_height="wrap_content">
+
+
+                                            <RelativeLayout
+                                                android:layout_width="wrap_content"
+                                                android:layout_alignParentRight="true"
+                                                android:layout_height="wrap_content">
+                                                <TextView
+                                                    android:layout_width="wrap_content"
+                                                    android:text="+25"
+                                                    android:layout_centerVertical="true"
+                                                    android:id="@+id/tv_coins_for_ads_two"
+                                                    android:textStyle="bold"
+                                                    android:textSize="14sp"
+                                                    android:layout_alignParentRight="true"
+                                                    android:textColor="@color/colorWhite"
+                                                    android:layout_height="wrap_content">
+                                                </TextView>
+
+                                                <ImageView
+                                                    android:layout_width="30dp"
+                                                    android:layout_centerVertical="true"
+                                                    android:layout_toLeftOf="@+id/tv_coins_for_ads_two"
+                                                    android:src="@drawable/leage_three"
+                                                    android:layout_marginRight="3dp"
+                                                    android:layout_height="30dp">
+                                                </ImageView>
+                                            </RelativeLayout>
+
+
+
+
+
+
+
+
+
+                                        </RelativeLayout>
+
+
+                                    </RelativeLayout>
+
+                                </RelativeLayout>
+
+
+                            </LinearLayout>
+
+
+
+
+
+
+                        </RelativeLayout>
+
+
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_marginTop="7dp"
+                            android:layout_height="wrap_content">
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:weightSum="100"
+                                android:layout_height="wrap_content">
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_weight="88"
+                                    android:layout_gravity="center"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/tv_count_ads_three"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_centerVertical="true"
+                                        android:text="3"
+                                        android:textColor="@color/colorWhite"
+                                        android:textSize="10sp"
+                                        android:textStyle="bold"></TextView>
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:text="ADS"
+                                        android:layout_centerVertical="true"
+                                        android:id="@+id/tv_ads_three"
+                                        android:layout_toRightOf="@+id/tv_count_ads_three"
+                                        android:textColor="@color/colorWhite"
+                                        android:textSize="10sp"
+                                        android:layout_marginLeft="3dp"
+                                        android:layout_height="wrap_content">
+                                    </TextView>
+                                </RelativeLayout>
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_weight="12"
+                                    android:layout_gravity="center"
+                                    android:layout_height="wrap_content">
+
+                                    <RelativeLayout
+                                        android:layout_width="match_parent"
+                                        android:padding="10dp"
+                                        android:layout_centerVertical="true"
+                                        android:id="@+id/layout_ads_three"
+                                        android:layout_marginLeft="15dp"
+                                        android:layout_marginRight="15dp"
+                                        android:background="@drawable/buy_bg_button"
+                                        android:layout_height="wrap_content">
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text="COLLECT"
+                                            android:layout_centerVertical="true"
+                                            android:textStyle="bold"
+                                            android:textSize="12sp"
+                                            android:textColor="@color/colorWhite"
+                                            android:fontFamily="@font/seven"
+                                            />
+
+                                        <RelativeLayout
+                                            android:layout_width="wrap_content"
+                                            android:layout_alignParentRight="true"
+                                            android:layout_height="wrap_content">
+
+
+                                            <RelativeLayout
+                                                android:layout_width="wrap_content"
+                                                android:layout_alignParentRight="true"
+                                                android:layout_height="wrap_content">
+                                                <TextView
+                                                    android:layout_width="wrap_content"
+                                                    android:text="+40"
+                                                    android:layout_centerVertical="true"
+                                                    android:id="@+id/tv_coins_for_ads_three"
+                                                    android:textStyle="bold"
+                                                    android:textSize="14sp"
+                                                    android:layout_alignParentRight="true"
+                                                    android:textColor="@color/colorWhite"
+                                                    android:layout_height="wrap_content">
+                                                </TextView>
+
+                                                <ImageView
+                                                    android:layout_width="30dp"
+                                                    android:layout_centerVertical="true"
+                                                    android:layout_toLeftOf="@+id/tv_coins_for_ads_three"
+                                                    android:src="@drawable/leage_three"
+                                                    android:layout_marginRight="3dp"
+                                                    android:layout_height="30dp">
+                                                </ImageView>
+                                            </RelativeLayout>
+
+
+
+
+
+
+
+
+
+                                        </RelativeLayout>
+
+
+                                    </RelativeLayout>
+
+                                </RelativeLayout>
+
+
+                            </LinearLayout>
+
+
+
+
+
+
+
+                        </RelativeLayout>
+
+
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_marginTop="7dp"
+                            android:layout_height="wrap_content">
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:weightSum="100"
+                                android:layout_height="wrap_content">
+
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_weight="88"
+                                    android:layout_gravity="center"
+                                    android:layout_height="wrap_content">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:text="4"
+                                        android:layout_centerVertical="true"
+                                        android:id="@+id/tv_count_ads_four"
+                                        android:textColor="@color/colorWhite"
+                                        android:textSize="10sp"
+                                        android:textStyle="bold"
+                                        android:layout_height="wrap_content">
+                                    </TextView>
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:text="ADS"
+                                        android:layout_centerVertical="true"
+                                        android:id="@+id/tv_ads_four"
+                                        android:layout_toRightOf="@+id/tv_count_ads_four"
+                                        android:textColor="@color/colorWhite"
+                                        android:textSize="10sp"
+                                        android:layout_marginLeft="3dp"
+                                        android:layout_height="wrap_content">
+                                    </TextView>
+                                </RelativeLayout>
+
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_weight="12"
+                                    android:layout_gravity="center"
+                                    android:layout_height="wrap_content">
+                                    <RelativeLayout
+                                        android:layout_width="match_parent"
+                                        android:padding="10dp"
+                                        android:layout_centerVertical="true"
+                                        android:id="@+id/layout_ads_four"
+                                        android:layout_marginLeft="15dp"
+                                        android:layout_marginRight="15dp"
+                                        android:background="@drawable/buy_bg_button"
+                                        android:layout_height="wrap_content">
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text="COLLECT"
+                                            android:layout_centerVertical="true"
+                                            android:textStyle="bold"
+                                            android:textSize="12sp"
+                                            android:textColor="@color/colorWhite"
+                                            android:fontFamily="@font/seven"
+                                            />
+
+                                        <RelativeLayout
+                                            android:layout_width="wrap_content"
+                                            android:layout_alignParentRight="true"
+                                            android:layout_height="wrap_content">
+
+
+                                            <RelativeLayout
+                                                android:layout_width="wrap_content"
+                                                android:layout_alignParentRight="true"
+                                                android:layout_height="wrap_content">
+                                                <TextView
+                                                    android:layout_width="wrap_content"
+                                                    android:text="+70"
+                                                    android:layout_centerVertical="true"
+                                                    android:id="@+id/tv_coins_for_ads_four"
+                                                    android:textStyle="bold"
+                                                    android:textSize="14sp"
+                                                    android:layout_alignParentRight="true"
+                                                    android:textColor="@color/colorWhite"
+                                                    android:layout_height="wrap_content">
+                                                </TextView>
+
+                                                <ImageView
+                                                    android:layout_width="30dp"
+                                                    android:layout_centerVertical="true"
+                                                    android:layout_toLeftOf="@+id/tv_coins_for_ads_four"
+                                                    android:src="@drawable/leage_three"
+                                                    android:layout_marginRight="3dp"
+                                                    android:layout_height="30dp">
+                                                </ImageView>
+                                            </RelativeLayout>
+
+
+
+
+
+
+
+
+
+                                        </RelativeLayout>
+
+
+                                    </RelativeLayout>
+
+                                </RelativeLayout>
+
+
+                            </LinearLayout>
+
+
+                        </RelativeLayout>
+
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_marginTop="7dp"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:weightSum="100"
+                                android:layout_height="wrap_content">
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_weight="88"
+                                    android:layout_gravity="center"
+                                    android:layout_height="wrap_content">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:text="5"
+                                        android:layout_centerVertical="true"
+                                        android:id="@+id/tv_count_ads_five"
+                                        android:textColor="@color/colorWhite"
+                                        android:textSize="10sp"
+                                        android:textStyle="bold"
+                                        android:layout_height="wrap_content">
+                                    </TextView>
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:text="ADS"
+                                        android:layout_centerVertical="true"
+                                        android:id="@+id/tv_ads_five"
+                                        android:layout_toRightOf="@+id/tv_count_ads_five"
+                                        android:textColor="@color/colorWhite"
+                                        android:textSize="10sp"
+                                        android:layout_marginLeft="3dp"
+                                        android:layout_height="wrap_content">
+                                    </TextView>
+                                </RelativeLayout>
+
+
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_weight="12"
+                                    android:layout_gravity="center"
+                                    android:layout_height="wrap_content">
+                                    <RelativeLayout
+                                        android:layout_width="match_parent"
+                                        android:padding="10dp"
+                                        android:layout_centerVertical="true"
+                                        android:id="@+id/layout_ads_five"
+                                        android:layout_marginLeft="15dp"
+                                        android:layout_marginRight="15dp"
+                                        android:background="@drawable/buy_bg_button"
+                                        android:layout_height="wrap_content">
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text="COLLECT"
+                                            android:layout_centerVertical="true"
+                                            android:textStyle="bold"
+                                            android:textSize="12sp"
+                                            android:textColor="@color/colorWhite"
+                                            android:fontFamily="@font/seven"
+                                            />
+
+                                        <RelativeLayout
+                                            android:layout_width="wrap_content"
+                                            android:layout_alignParentRight="true"
+                                            android:layout_height="wrap_content">
+
+
+                                            <RelativeLayout
+                                                android:layout_width="wrap_content"
+                                                android:layout_alignParentRight="true"
+                                                android:layout_height="wrap_content">
+                                                <TextView
+                                                    android:layout_width="wrap_content"
+                                                    android:text="+120"
+                                                    android:layout_centerVertical="true"
+                                                    android:id="@+id/tv_coins_for_ads_five"
+                                                    android:textStyle="bold"
+                                                    android:textSize="14sp"
+                                                    android:layout_alignParentRight="true"
+                                                    android:textColor="@color/colorWhite"
+                                                    android:layout_height="wrap_content">
+                                                </TextView>
+
+                                                <ImageView
+                                                    android:layout_width="30dp"
+                                                    android:layout_centerVertical="true"
+                                                    android:layout_toLeftOf="@+id/tv_coins_for_ads_five"
+                                                    android:src="@drawable/leage_three"
+                                                    android:layout_marginRight="3dp"
+                                                    android:layout_height="30dp">
+                                                </ImageView>
+                                            </RelativeLayout>
+
+
+
+
+
+
+
+
+
+                                        </RelativeLayout>
+
+
+                                    </RelativeLayout>
+                                </RelativeLayout>
+
+
+                            </LinearLayout>
+
+
+
+
+
+
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_marginTop="7dp"
+                            android:layout_height="wrap_content">
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:weightSum="100"
+                                android:layout_height="wrap_content">
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_weight="88"
+                                    android:layout_gravity="center"
+                                    android:layout_height="wrap_content">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:text="6"
+                                        android:layout_centerVertical="true"
+                                        android:id="@+id/tv_count_ads_six"
+                                        android:textColor="@color/colorWhite"
+                                        android:textSize="10sp"
+                                        android:textStyle="bold"
+                                        android:layout_height="wrap_content">
+                                    </TextView>
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:text="ADS"
+                                        android:layout_centerVertical="true"
+                                        android:id="@+id/tv_ads_six"
+                                        android:layout_toRightOf="@+id/tv_count_ads_six"
+                                        android:textColor="@color/colorWhite"
+                                        android:textSize="10sp"
+                                        android:layout_marginLeft="3dp"
+                                        android:layout_height="wrap_content">
+                                    </TextView>
+                                </RelativeLayout>
+
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_weight="12"
+                                    android:layout_gravity="center"
+                                    android:layout_height="wrap_content">
+                                    <RelativeLayout
+                                        android:layout_width="match_parent"
+                                        android:padding="10dp"
+                                        android:layout_centerVertical="true"
+                                        android:id="@+id/layout_ads_six"
+                                        android:layout_marginLeft="15dp"
+                                        android:layout_marginRight="15dp"
+                                        android:background="@drawable/buy_bg_button"
+                                        android:layout_height="wrap_content">
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text="COLLECT"
+                                            android:layout_centerVertical="true"
+                                            android:textStyle="bold"
+                                            android:textSize="12sp"
+                                            android:textColor="@color/colorWhite"
+                                            android:fontFamily="@font/seven"
+                                            />
+
+                                        <RelativeLayout
+                                            android:layout_width="wrap_content"
+                                            android:layout_alignParentRight="true"
+                                            android:layout_height="wrap_content">
+
+
+                                            <RelativeLayout
+                                                android:layout_width="wrap_content"
+                                                android:layout_alignParentRight="true"
+                                                android:layout_height="wrap_content">
+                                                <TextView
+                                                    android:layout_width="wrap_content"
+                                                    android:text="+250"
+                                                    android:layout_centerVertical="true"
+                                                    android:id="@+id/tv_coins_for_ads_six"
+                                                    android:textStyle="bold"
+                                                    android:textSize="14sp"
+                                                    android:layout_alignParentRight="true"
+                                                    android:textColor="@color/colorWhite"
+                                                    android:layout_height="wrap_content">
+                                                </TextView>
+
+                                                <ImageView
+                                                    android:layout_width="30dp"
+                                                    android:layout_centerVertical="true"
+                                                    android:layout_toLeftOf="@+id/tv_coins_for_ads_six"
+                                                    android:src="@drawable/leage_three"
+                                                    android:layout_marginRight="3dp"
+                                                    android:layout_height="30dp">
+                                                </ImageView>
+                                            </RelativeLayout>
+
+
+
+
+
+
+
+
+
+                                        </RelativeLayout>
+
+
+                                    </RelativeLayout>
+                                </RelativeLayout>
+
+                            </LinearLayout>
+
+                        </RelativeLayout>
+
+
+                    </LinearLayout>
+
+
+                </ScrollView>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

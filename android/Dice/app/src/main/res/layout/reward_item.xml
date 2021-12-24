@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="180dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:layout_width="130dp"
+            android:id="@+id/img"
+            android:src="@drawable/leage_two"
+            android:layout_height="130dp">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/collect_img"
+            android:layout_width="150dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_name_new"
+            android:text="COLLECT"
+            android:textAlignment="center"
+            android:padding="15dp"
+            android:fontFamily="@font/seven"
+            android:textColor="@color/colorWhite"
+            android:textSize="18sp" />
+
+
+    </RelativeLayout>
+
+
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:padding="20dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        tools:ignore="MissingConstraints">-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:orientation="vertical">-->
+<!--            <ImageView-->
+<!--                android:id="@+id/img"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:src="@drawable/coin"/>-->
+<!--            <TextView-->
+<!--                android:id="@+id/name_txt"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:textAlignment="center"-->
+<!--                android:text="Token"-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                android:textSize="20dp"-->
+<!--                android:textStyle="bold"-->
+<!--                android:textColor="@color/coloryellow"-->
+<!--                android:fontFamily="@font/roboto_medium"/>-->
+<!--        </LinearLayout>-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/collect_img"-->
+<!--            android:layout_width="150dp"-->
+<!--            android:layout_height="60dp"-->
+<!--            android:src="@drawable/collect"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_marginRight="20dp"-->
+<!--            android:scaleType="fitXY"-->
+<!--            android:layout_alignParentRight="true"-->
+<!--            android:layout_centerVertical="true"/>-->
+<!--    </RelativeLayout>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

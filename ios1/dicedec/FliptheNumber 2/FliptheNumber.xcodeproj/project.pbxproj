@@ -1,0 +1,924 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24628E961B1BCD577CA09E8D /* Pods_FliptheNumber_FliptheNumberUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0201F0365F08A041065E8BE8 /* Pods_FliptheNumber_FliptheNumberUITests.framework */; };
+		3E60F25974FBEBE201989ED4 /* Pods_FliptheNumberTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36310D6D6771948FBB9B11F0 /* Pods_FliptheNumberTests.framework */; };
+		6C6FEBF074596EEC9873C422 /* Pods_FliptheNumber.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D6138C343C257E7FE203EB /* Pods_FliptheNumber.framework */; };
+		F40448E42510D4C800424469 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40448E32510D4C800424469 /* BaseViewController.swift */; };
+		F40448E62510E62C00424469 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F40448E52510E62B00424469 /* GoogleService-Info.plist */; };
+		F438C12A258A3497002E05AD /* invitecell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F438C128258A3497002E05AD /* invitecell.swift */; };
+		F446CA54251072820012C6B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F446CA53251072820012C6B8 /* AppDelegate.swift */; };
+		F446CA56251072820012C6B8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F446CA55251072820012C6B8 /* SceneDelegate.swift */; };
+		F446CA5B251072820012C6B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F446CA59251072820012C6B8 /* Main.storyboard */; };
+		F446CA60251072850012C6B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F446CA5E251072850012C6B8 /* LaunchScreen.storyboard */; };
+		F446CA6B251072860012C6B8 /* FliptheNumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F446CA6A251072860012C6B8 /* FliptheNumberTests.swift */; };
+		F446CA76251072860012C6B8 /* FliptheNumberUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F446CA75251072860012C6B8 /* FliptheNumberUITests.swift */; };
+		F4479AE12514CCCC006644E2 /* HomeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4479ADF2514CCCC006644E2 /* HomeCollectionViewCell.xib */; };
+		F470C2BD257F659700961330 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F470C2BC257F659700961330 /* ViewController.swift */; };
+		F470C2BF257F659C00961330 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F470C2BE257F659C00961330 /* loginViewController.swift */; };
+		F470C2C1257F65A100961330 /* signupVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F470C2C0257F65A100961330 /* signupVc.swift */; };
+		F470C2C3257F665B00961330 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F470C2C2257F665A00961330 /* Assets.xcassets */; };
+		F470C2C5257F68A000961330 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F470C2C4257F68A000961330 /* HomeViewController.swift */; };
+		F470C2C7257F889200961330 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F470C2C6257F889200961330 /* ProfileViewController.swift */; };
+		F470C2C9257F8F8E00961330 /* RewardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F470C2C8257F8F8E00961330 /* RewardsViewController.swift */; };
+		F470C2CB257F944A00961330 /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F470C2CA257F944A00961330 /* StoreViewController.swift */; };
+		F470C2CF257FA21000961330 /* tablestore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F470C2CE257FA21000961330 /* tablestore.swift */; };
+		F4728ECA251C848500481444 /* countrypicker in Resources */ = {isa = PBXBuildFile; fileRef = F4728EC8251C848500481444 /* countrypicker */; };
+		F4728ECB251C848500481444 /* localize in Resources */ = {isa = PBXBuildFile; fileRef = F4728EC9251C848500481444 /* localize */; };
+		F47DC8202580CFBB005ABD68 /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47DC81F2580CFBB005ABD68 /* EventViewController.swift */; };
+		F4AB03082581D94B0052991C /* Museo300-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = F4AB03072581D94A0052991C /* Museo300-Regular.otf */; };
+		F4AB030A2581D9640052991C /* Museo700-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = F4AB03092581D9630052991C /* Museo700-Regular.otf */; };
+		F4AE150C258877B100B9A793 /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F470C2CA257F944A00961330 /* StoreViewController.swift */; };
+		F4AE15152588C0AE00B9A793 /* eventcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AE15132588C0AE00B9A793 /* eventcell.swift */; };
+		F4B56AA0251F390A002D1882 /* gameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B56A9F251F3909002D1882 /* gameViewController.swift */; };
+		F4B56AA2251F59FF002D1882 /* game_time_background.png in Resources */ = {isa = PBXBuildFile; fileRef = F4B56AA1251F59FE002D1882 /* game_time_background.png */; };
+		F4B8DBFF251DDFFB00C4A594 /* chida.png in Resources */ = {isa = PBXBuildFile; fileRef = F4B8DBFE251DDFFB00C4A594 /* chida.png */; };
+		F4B8DC01251DE80D00C4A594 /* ChallengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B8DC00251DE80D00C4A594 /* ChallengeViewController.swift */; };
+		F4BFB05B2581FD3500BD411B /* challengefriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BFB05A2581FD3500BD411B /* challengefriendViewController.swift */; };
+		F4BFB05D2582050C00BD411B /* FriendCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BFB05C2582050C00BD411B /* FriendCell.swift */; };
+		F4BFB05F25820C0500BD411B /* playerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BFB05E25820C0500BD411B /* playerViewController.swift */; };
+		F4EE010F25871DA10056AE19 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EE010E25871DA10056AE19 /* AlertViewController.swift */; };
+		F4EE0116258727880056AE19 /* service.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EE0115258727880056AE19 /* service.swift */; };
+		F4EE011825872A100056AE19 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EE011725872A100056AE19 /* ActivityIndicator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F446CA67251072860012C6B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F446CA48251072820012C6B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F446CA4F251072820012C6B8;
+			remoteInfo = FliptheNumber;
+		};
+		F446CA72251072860012C6B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F446CA48251072820012C6B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F446CA4F251072820012C6B8;
+			remoteInfo = FliptheNumber;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0201F0365F08A041065E8BE8 /* Pods_FliptheNumber_FliptheNumberUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FliptheNumber_FliptheNumberUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20D6138C343C257E7FE203EB /* Pods_FliptheNumber.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FliptheNumber.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36310D6D6771948FBB9B11F0 /* Pods_FliptheNumberTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FliptheNumberTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B2D43727C8696716265417C /* Pods-FliptheNumber.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FliptheNumber.debug.xcconfig"; path = "Target Support Files/Pods-FliptheNumber/Pods-FliptheNumber.debug.xcconfig"; sourceTree = "<group>"; };
+		4CF0B5BABFCB337923CB9C49 /* Pods-FliptheNumber-FliptheNumberUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FliptheNumber-FliptheNumberUITests.release.xcconfig"; path = "Target Support Files/Pods-FliptheNumber-FliptheNumberUITests/Pods-FliptheNumber-FliptheNumberUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6AF7ACC542E6C756079DF183 /* Pods-FliptheNumber-FliptheNumberUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FliptheNumber-FliptheNumberUITests.debug.xcconfig"; path = "Target Support Files/Pods-FliptheNumber-FliptheNumberUITests/Pods-FliptheNumber-FliptheNumberUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B333549F30BBB7E76CDDFAA1 /* Pods-FliptheNumber.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FliptheNumber.release.xcconfig"; path = "Target Support Files/Pods-FliptheNumber/Pods-FliptheNumber.release.xcconfig"; sourceTree = "<group>"; };
+		F40448E32510D4C800424469 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		F40448E52510E62B00424469 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F438C128258A3497002E05AD /* invitecell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = invitecell.swift; sourceTree = "<group>"; };
+		F446CA50251072820012C6B8 /* FliptheNumber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FliptheNumber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F446CA53251072820012C6B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F446CA55251072820012C6B8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F446CA5A251072820012C6B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F446CA5F251072850012C6B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F446CA61251072850012C6B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F446CA66251072860012C6B8 /* FliptheNumberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FliptheNumberTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F446CA6A251072860012C6B8 /* FliptheNumberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FliptheNumberTests.swift; sourceTree = "<group>"; };
+		F446CA6C251072860012C6B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F446CA71251072860012C6B8 /* FliptheNumberUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FliptheNumberUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F446CA75251072860012C6B8 /* FliptheNumberUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FliptheNumberUITests.swift; sourceTree = "<group>"; };
+		F446CA77251072860012C6B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4479ADF2514CCCC006644E2 /* HomeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCollectionViewCell.xib; sourceTree = "<group>"; };
+		F470C2BC257F659700961330 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F470C2BE257F659C00961330 /* loginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		F470C2C0257F65A100961330 /* signupVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signupVc.swift; sourceTree = "<group>"; };
+		F470C2C2257F665A00961330 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F470C2C4257F68A000961330 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F470C2C6257F889200961330 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		F470C2C8257F8F8E00961330 /* RewardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsViewController.swift; sourceTree = "<group>"; };
+		F470C2CA257F944A00961330 /* StoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreViewController.swift; sourceTree = "<group>"; };
+		F470C2CE257FA21000961330 /* tablestore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tablestore.swift; sourceTree = "<group>"; };
+		F4728EC8251C848500481444 /* countrypicker */ = {isa = PBXFileReference; lastKnownFileType = folder; path = countrypicker; sourceTree = "<group>"; };
+		F4728EC9251C848500481444 /* localize */ = {isa = PBXFileReference; lastKnownFileType = folder; path = localize; sourceTree = "<group>"; };
+		F47DC81F2580CFBB005ABD68 /* EventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
+		F4AB03072581D94A0052991C /* Museo300-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Museo300-Regular.otf"; sourceTree = "<group>"; };
+		F4AB03092581D9630052991C /* Museo700-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Museo700-Regular.otf"; sourceTree = "<group>"; };
+		F4AE15132588C0AE00B9A793 /* eventcell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eventcell.swift; sourceTree = "<group>"; };
+		F4B56A9F251F3909002D1882 /* gameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameViewController.swift; sourceTree = "<group>"; };
+		F4B56AA1251F59FE002D1882 /* game_time_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = game_time_background.png; sourceTree = "<group>"; };
+		F4B8DBFE251DDFFB00C4A594 /* chida.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chida.png; sourceTree = "<group>"; };
+		F4B8DC00251DE80D00C4A594 /* ChallengeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeViewController.swift; sourceTree = "<group>"; };
+		F4BFB05A2581FD3500BD411B /* challengefriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = challengefriendViewController.swift; sourceTree = "<group>"; };
+		F4BFB05C2582050C00BD411B /* FriendCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendCell.swift; sourceTree = "<group>"; };
+		F4BFB05E25820C0500BD411B /* playerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playerViewController.swift; sourceTree = "<group>"; };
+		F4EE010E25871DA10056AE19 /* AlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+		F4EE0115258727880056AE19 /* service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = service.swift; sourceTree = "<group>"; };
+		F4EE011725872A100056AE19 /* ActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		F8FC820B49856DA497523643 /* Pods-FliptheNumberTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FliptheNumberTests.release.xcconfig"; path = "Target Support Files/Pods-FliptheNumberTests/Pods-FliptheNumberTests.release.xcconfig"; sourceTree = "<group>"; };
+		F903107574300A4EA2EAD71A /* Pods-FliptheNumberTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FliptheNumberTests.debug.xcconfig"; path = "Target Support Files/Pods-FliptheNumberTests/Pods-FliptheNumberTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F446CA4D251072820012C6B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C6FEBF074596EEC9873C422 /* Pods_FliptheNumber.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F446CA63251072860012C6B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E60F25974FBEBE201989ED4 /* Pods_FliptheNumberTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F446CA6E251072860012C6B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24628E961B1BCD577CA09E8D /* Pods_FliptheNumber_FliptheNumberUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		925399DB4BECA2E20D47CA52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20D6138C343C257E7FE203EB /* Pods_FliptheNumber.framework */,
+				0201F0365F08A041065E8BE8 /* Pods_FliptheNumber_FliptheNumberUITests.framework */,
+				36310D6D6771948FBB9B11F0 /* Pods_FliptheNumberTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6784D980A056230DC7C3B88 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B2D43727C8696716265417C /* Pods-FliptheNumber.debug.xcconfig */,
+				B333549F30BBB7E76CDDFAA1 /* Pods-FliptheNumber.release.xcconfig */,
+				6AF7ACC542E6C756079DF183 /* Pods-FliptheNumber-FliptheNumberUITests.debug.xcconfig */,
+				4CF0B5BABFCB337923CB9C49 /* Pods-FliptheNumber-FliptheNumberUITests.release.xcconfig */,
+				F903107574300A4EA2EAD71A /* Pods-FliptheNumberTests.debug.xcconfig */,
+				F8FC820B49856DA497523643 /* Pods-FliptheNumberTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F446CA47251072820012C6B8 = {
+			isa = PBXGroup;
+			children = (
+				F446CA52251072820012C6B8 /* FliptheNumber */,
+				F446CA69251072860012C6B8 /* FliptheNumberTests */,
+				F446CA74251072860012C6B8 /* FliptheNumberUITests */,
+				F446CA51251072820012C6B8 /* Products */,
+				A6784D980A056230DC7C3B88 /* Pods */,
+				925399DB4BECA2E20D47CA52 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F446CA51251072820012C6B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F446CA50251072820012C6B8 /* FliptheNumber.app */,
+				F446CA66251072860012C6B8 /* FliptheNumberTests.xctest */,
+				F446CA71251072860012C6B8 /* FliptheNumberUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F446CA52251072820012C6B8 /* FliptheNumber */ = {
+			isa = PBXGroup;
+			children = (
+				F446CA53251072820012C6B8 /* AppDelegate.swift */,
+				F4728EC8251C848500481444 /* countrypicker */,
+				F4EE010A25871C080056AE19 /* Supporting file */,
+				F4EE011025871F280056AE19 /* model */,
+				F4728EC9251C848500481444 /* localize */,
+				F4EE010D25871C6C0056AE19 /* controller */,
+				F4479ADF2514CCCC006644E2 /* HomeCollectionViewCell.xib */,
+				F446CA59251072820012C6B8 /* Main.storyboard */,
+				F470C2C2257F665A00961330 /* Assets.xcassets */,
+				F4B56AA1251F59FE002D1882 /* game_time_background.png */,
+				F446CA5E251072850012C6B8 /* LaunchScreen.storyboard */,
+				F446CA61251072850012C6B8 /* Info.plist */,
+			);
+			path = FliptheNumber;
+			sourceTree = "<group>";
+		};
+		F446CA69251072860012C6B8 /* FliptheNumberTests */ = {
+			isa = PBXGroup;
+			children = (
+				F446CA6A251072860012C6B8 /* FliptheNumberTests.swift */,
+				F446CA6C251072860012C6B8 /* Info.plist */,
+			);
+			path = FliptheNumberTests;
+			sourceTree = "<group>";
+		};
+		F446CA74251072860012C6B8 /* FliptheNumberUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F446CA75251072860012C6B8 /* FliptheNumberUITests.swift */,
+				F446CA77251072860012C6B8 /* Info.plist */,
+			);
+			path = FliptheNumberUITests;
+			sourceTree = "<group>";
+		};
+		F4EE010A25871C080056AE19 /* Supporting file */ = {
+			isa = PBXGroup;
+			children = (
+				F4AB03072581D94A0052991C /* Museo300-Regular.otf */,
+				F4AB03092581D9630052991C /* Museo700-Regular.otf */,
+				F4EE011725872A100056AE19 /* ActivityIndicator.swift */,
+				F4EE0115258727880056AE19 /* service.swift */,
+				F4EE010E25871DA10056AE19 /* AlertViewController.swift */,
+				F40448E52510E62B00424469 /* GoogleService-Info.plist */,
+			);
+			path = "Supporting file";
+			sourceTree = "<group>";
+		};
+		F4EE010D25871C6C0056AE19 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				F446CA55251072820012C6B8 /* SceneDelegate.swift */,
+				F40448E32510D4C800424469 /* BaseViewController.swift */,
+				F4B8DC00251DE80D00C4A594 /* ChallengeViewController.swift */,
+				F470C2BC257F659700961330 /* ViewController.swift */,
+				F470C2C4257F68A000961330 /* HomeViewController.swift */,
+				F470C2C0257F65A100961330 /* signupVc.swift */,
+				F470C2BE257F659C00961330 /* loginViewController.swift */,
+				F4BFB05E25820C0500BD411B /* playerViewController.swift */,
+				F470C2C8257F8F8E00961330 /* RewardsViewController.swift */,
+				F470C2CA257F944A00961330 /* StoreViewController.swift */,
+				F47DC81F2580CFBB005ABD68 /* EventViewController.swift */,
+				F470C2CE257FA21000961330 /* tablestore.swift */,
+				F4AE15132588C0AE00B9A793 /* eventcell.swift */,
+				F4BFB05A2581FD3500BD411B /* challengefriendViewController.swift */,
+				F470C2C6257F889200961330 /* ProfileViewController.swift */,
+				F438C128258A3497002E05AD /* invitecell.swift */,
+				F4BFB05C2582050C00BD411B /* FriendCell.swift */,
+				F4B56A9F251F3909002D1882 /* gameViewController.swift */,
+				F4B8DBFE251DDFFB00C4A594 /* chida.png */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		F4EE011025871F280056AE19 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F446CA4F251072820012C6B8 /* FliptheNumber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F446CA7A251072860012C6B8 /* Build configuration list for PBXNativeTarget "FliptheNumber" */;
+			buildPhases = (
+				B0787CFCA5F6685F735E4698 /* [CP] Check Pods Manifest.lock */,
+				F446CA4C251072820012C6B8 /* Sources */,
+				F446CA4D251072820012C6B8 /* Frameworks */,
+				F446CA4E251072820012C6B8 /* Resources */,
+				454AF398E16AD513CAA87F3D /* [CP] Embed Pods Frameworks */,
+				6AAFC915CA6DA13801DFB212 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FliptheNumber;
+			productName = FliptheNumber;
+			productReference = F446CA50251072820012C6B8 /* FliptheNumber.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F446CA65251072860012C6B8 /* FliptheNumberTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F446CA7D251072860012C6B8 /* Build configuration list for PBXNativeTarget "FliptheNumberTests" */;
+			buildPhases = (
+				4DB708D692044BEE013BA272 /* [CP] Check Pods Manifest.lock */,
+				F446CA62251072860012C6B8 /* Sources */,
+				F446CA63251072860012C6B8 /* Frameworks */,
+				F446CA64251072860012C6B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F446CA68251072860012C6B8 /* PBXTargetDependency */,
+			);
+			name = FliptheNumberTests;
+			productName = FliptheNumberTests;
+			productReference = F446CA66251072860012C6B8 /* FliptheNumberTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F446CA70251072860012C6B8 /* FliptheNumberUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F446CA80251072860012C6B8 /* Build configuration list for PBXNativeTarget "FliptheNumberUITests" */;
+			buildPhases = (
+				D0F60F19BA6F5B832B5CB324 /* [CP] Check Pods Manifest.lock */,
+				F446CA6D251072860012C6B8 /* Sources */,
+				F446CA6E251072860012C6B8 /* Frameworks */,
+				F446CA6F251072860012C6B8 /* Resources */,
+				FE883C494B113958204EDC4D /* [CP] Embed Pods Frameworks */,
+				D06CD6C94BC0791A9C4D0A79 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F446CA73251072860012C6B8 /* PBXTargetDependency */,
+			);
+			name = FliptheNumberUITests;
+			productName = FliptheNumberUITests;
+			productReference = F446CA71251072860012C6B8 /* FliptheNumberUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F446CA48251072820012C6B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					F446CA4F251072820012C6B8 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					F446CA65251072860012C6B8 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = F446CA4F251072820012C6B8;
+					};
+					F446CA70251072860012C6B8 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = F446CA4F251072820012C6B8;
+					};
+				};
+			};
+			buildConfigurationList = F446CA4B251072820012C6B8 /* Build configuration list for PBXProject "FliptheNumber" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F446CA47251072820012C6B8;
+			productRefGroup = F446CA51251072820012C6B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F446CA4F251072820012C6B8 /* FliptheNumber */,
+				F446CA65251072860012C6B8 /* FliptheNumberTests */,
+				F446CA70251072860012C6B8 /* FliptheNumberUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F446CA4E251072820012C6B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4479AE12514CCCC006644E2 /* HomeCollectionViewCell.xib in Resources */,
+				F446CA60251072850012C6B8 /* LaunchScreen.storyboard in Resources */,
+				F4728ECB251C848500481444 /* localize in Resources */,
+				F40448E62510E62C00424469 /* GoogleService-Info.plist in Resources */,
+				F4AB03082581D94B0052991C /* Museo300-Regular.otf in Resources */,
+				F4AB030A2581D9640052991C /* Museo700-Regular.otf in Resources */,
+				F4728ECA251C848500481444 /* countrypicker in Resources */,
+				F4B56AA2251F59FF002D1882 /* game_time_background.png in Resources */,
+				F4B8DBFF251DDFFB00C4A594 /* chida.png in Resources */,
+				F470C2C3257F665B00961330 /* Assets.xcassets in Resources */,
+				F446CA5B251072820012C6B8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F446CA64251072860012C6B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F446CA6F251072860012C6B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		454AF398E16AD513CAA87F3D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FliptheNumber/Pods-FliptheNumber-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FliptheNumber/Pods-FliptheNumber-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FliptheNumber/Pods-FliptheNumber-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DB708D692044BEE013BA272 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FliptheNumberTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AAFC915CA6DA13801DFB212 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FliptheNumber/Pods-FliptheNumber-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FliptheNumber/Pods-FliptheNumber-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FliptheNumber/Pods-FliptheNumber-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0787CFCA5F6685F735E4698 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FliptheNumber-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D06CD6C94BC0791A9C4D0A79 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FliptheNumber-FliptheNumberUITests/Pods-FliptheNumber-FliptheNumberUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FliptheNumber-FliptheNumberUITests/Pods-FliptheNumber-FliptheNumberUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FliptheNumber-FliptheNumberUITests/Pods-FliptheNumber-FliptheNumberUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0F60F19BA6F5B832B5CB324 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FliptheNumber-FliptheNumberUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE883C494B113958204EDC4D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FliptheNumber-FliptheNumberUITests/Pods-FliptheNumber-FliptheNumberUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FliptheNumber-FliptheNumberUITests/Pods-FliptheNumber-FliptheNumberUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FliptheNumber-FliptheNumberUITests/Pods-FliptheNumber-FliptheNumberUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F446CA4C251072820012C6B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F470C2CF257FA21000961330 /* tablestore.swift in Sources */,
+				F4B56AA0251F390A002D1882 /* gameViewController.swift in Sources */,
+				F4B8DC01251DE80D00C4A594 /* ChallengeViewController.swift in Sources */,
+				F4EE010F25871DA10056AE19 /* AlertViewController.swift in Sources */,
+				F4BFB05D2582050C00BD411B /* FriendCell.swift in Sources */,
+				F40448E42510D4C800424469 /* BaseViewController.swift in Sources */,
+				F446CA54251072820012C6B8 /* AppDelegate.swift in Sources */,
+				F470C2C5257F68A000961330 /* HomeViewController.swift in Sources */,
+				F4AE15152588C0AE00B9A793 /* eventcell.swift in Sources */,
+				F470C2CB257F944A00961330 /* StoreViewController.swift in Sources */,
+				F4EE0116258727880056AE19 /* service.swift in Sources */,
+				F4BFB05B2581FD3500BD411B /* challengefriendViewController.swift in Sources */,
+				F4BFB05F25820C0500BD411B /* playerViewController.swift in Sources */,
+				F470C2C7257F889200961330 /* ProfileViewController.swift in Sources */,
+				F438C12A258A3497002E05AD /* invitecell.swift in Sources */,
+				F470C2C1257F65A100961330 /* signupVc.swift in Sources */,
+				F47DC8202580CFBB005ABD68 /* EventViewController.swift in Sources */,
+				F470C2BD257F659700961330 /* ViewController.swift in Sources */,
+				F4EE011825872A100056AE19 /* ActivityIndicator.swift in Sources */,
+				F470C2C9257F8F8E00961330 /* RewardsViewController.swift in Sources */,
+				F446CA56251072820012C6B8 /* SceneDelegate.swift in Sources */,
+				F470C2BF257F659C00961330 /* loginViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F446CA62251072860012C6B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F446CA6B251072860012C6B8 /* FliptheNumberTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F446CA6D251072860012C6B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4AE150C258877B100B9A793 /* StoreViewController.swift in Sources */,
+				F446CA76251072860012C6B8 /* FliptheNumberUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F446CA68251072860012C6B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F446CA4F251072820012C6B8 /* FliptheNumber */;
+			targetProxy = F446CA67251072860012C6B8 /* PBXContainerItemProxy */;
+		};
+		F446CA73251072860012C6B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F446CA4F251072820012C6B8 /* FliptheNumber */;
+			targetProxy = F446CA72251072860012C6B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F446CA59251072820012C6B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F446CA5A251072820012C6B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F446CA5E251072850012C6B8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F446CA5F251072850012C6B8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F446CA78251072860012C6B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F446CA79251072860012C6B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F446CA7B251072860012C6B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B2D43727C8696716265417C /* Pods-FliptheNumber.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35J45J8JVV;
+				INFOPLIST_FILE = FliptheNumber/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ReallWorld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F446CA7C251072860012C6B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B333549F30BBB7E76CDDFAA1 /* Pods-FliptheNumber.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35J45J8JVV;
+				INFOPLIST_FILE = FliptheNumber/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ReallWorld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F446CA7E251072860012C6B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F903107574300A4EA2EAD71A /* Pods-FliptheNumberTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 652H6969N6;
+				INFOPLIST_FILE = FliptheNumberTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sanjeet.FliptheNumberTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FliptheNumber.app/FliptheNumber";
+			};
+			name = Debug;
+		};
+		F446CA7F251072860012C6B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8FC820B49856DA497523643 /* Pods-FliptheNumberTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 652H6969N6;
+				INFOPLIST_FILE = FliptheNumberTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sanjeet.FliptheNumberTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FliptheNumber.app/FliptheNumber";
+			};
+			name = Release;
+		};
+		F446CA81251072860012C6B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AF7ACC542E6C756079DF183 /* Pods-FliptheNumber-FliptheNumberUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 652H6969N6;
+				INFOPLIST_FILE = FliptheNumberUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sanjeet.FliptheNumberUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FliptheNumber;
+			};
+			name = Debug;
+		};
+		F446CA82251072860012C6B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CF0B5BABFCB337923CB9C49 /* Pods-FliptheNumber-FliptheNumberUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 652H6969N6;
+				INFOPLIST_FILE = FliptheNumberUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sanjeet.FliptheNumberUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FliptheNumber;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F446CA4B251072820012C6B8 /* Build configuration list for PBXProject "FliptheNumber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F446CA78251072860012C6B8 /* Debug */,
+				F446CA79251072860012C6B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F446CA7A251072860012C6B8 /* Build configuration list for PBXNativeTarget "FliptheNumber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F446CA7B251072860012C6B8 /* Debug */,
+				F446CA7C251072860012C6B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F446CA7D251072860012C6B8 /* Build configuration list for PBXNativeTarget "FliptheNumberTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F446CA7E251072860012C6B8 /* Debug */,
+				F446CA7F251072860012C6B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F446CA80251072860012C6B8 /* Build configuration list for PBXNativeTarget "FliptheNumberUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F446CA81251072860012C6B8 /* Debug */,
+				F446CA82251072860012C6B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F446CA48251072820012C6B8 /* Project object */;
+}

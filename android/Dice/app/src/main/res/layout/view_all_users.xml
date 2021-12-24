@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/drawable_all_users"
+        android:paddingVertical="5dp"
+        android:paddingHorizontal="10dp"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_user"
+            android:layout_width="40dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/drawable_profile"
+            android:layout_height="40dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Name"
+            android:id="@+id/tv_name"
+            android:layout_marginLeft="15dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/iv_user"
+            android:textColor="@color/colorWhite"
+            android:fontFamily="@font/seven"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:id="@+id/iv_invite_friend"
+            android:layout_centerVertical="true"
+            android:visibility="gone"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/drawable_circle"
+            android:layout_height="40dp">
+        </ImageView>
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
